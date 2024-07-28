@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src = "main.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <div id = "header01">HOW TO WALK IN TMU</div>
+    <div id = "container01">
+        <div id = "touka">
+            <h1 id = "title01">HOW TO WALK IN TMU</h1>
+            <h1 id = "intro01">最近、歩いていますか？<br>
+            このサイトでは、東京都立大学で楽しく散歩してもらうために、<br>
+            大学内の綺麗なスポットを紹介しています。<br>
+            是非参考にしていただけると嬉しいです。<br><br>↓</h1>
+        </div>
+    </div>
+
+    <div id = "line01">
+        <h1 class = "center darkgreen" id = "title03">お任せでコースを決める</h1>
+        <div class = "center" id = "space01">
+            <span class = "white" id = "random" onclick = "random()">
+                RANDOM
+            </span>
+        </div>
+    </div>
+
+    <h1 id = "title04" class = "darkgreen center">コースを選ぶ</h1>
+
+    <div id = "courses">
+        <div id = "easy" class = "line02" onclick = "easy()">
+            <h1 class = "red center" id = "easytitle">Easy</h1>
+            <img src="easy/img/14.png" alt="" class = "img01" id = "easyimg">
+            <p class = "center darkgreen text01" id = "easyp">軽くお散歩したい方におすすめ。<br>東京都立大学には<br>
+                勝手に侵入しても<br>罪に問われません！<br>約10分で気軽に回れる<br>コースです！</p>
+        </div>
+        <div id = "normal" class = "line02" onclick = "normal()">
+            <h1 class = "red center" id = "normaltitle">Normal</h1>
+            <img src="normal/img/12.png" alt="" class = "img01" id = "normalimg">
+            <p class = "center darkgreen text01" id = "normalp">東京都立大学の理系の学生が<br>いつも歩いている道を<br>体験してみませんか？
+                <br>この世の生態系を全て<br>理解した気になれます。<br>所要時間は約20分です。
+            </p>
+        </div>
+        <div id = "hard" class = "line02" onclick = "hard()">
+            <h1 class = "red center" id = "hardtitle">Hard</h1>
+            <img src="hard/img/14.png" alt="" class = "img01" id = "hardimg">
+            <p class = "center darkgreen text01" id = "hardp">東京都とは思えないほどの<br>自然を楽しみたい方におすすめ。<br>約30分の散歩で<br>昨日食べ過ぎた分の<br>カロリーを消費しましょう。</p>
+        </div>
+    </div>
+
+
+
+
+<footer>
+    <div id = "footer" class = "center darkgreen">The site created by GroupF 2024.</div>
+</footer>
+
+    
+</body>
+</html>
